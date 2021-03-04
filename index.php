@@ -5,7 +5,7 @@ $conn = mysqli_connect("localhost","root","emp","test");
 
 // Check connection
 if (mysqli_connect_errno()) {
-  echo "Failed: " . mysqli_connect_error();
+  echo "Faile: " . mysqli_connect_error();
   exit();
 }
 
