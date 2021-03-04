@@ -17,7 +17,7 @@ if(isset($_POST['submit']))
 	
 	mysqli_query($conn,"INSERT into user_details(cust_name,mobile) values('".$cust_name."','".$mobile."')");
 	
-	echo "<script>('Record Submitted')</script>";
+	echo "<script>ale('Record Submitted')</script>";
 	
 }		
 
